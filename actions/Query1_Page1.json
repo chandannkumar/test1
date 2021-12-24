@@ -14,6 +14,7 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT * FROM random_to_delete LIMIT 10;"
@@ -41,6 +42,7 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT * FROM random_to_delete LIMIT 10;"
@@ -55,7 +57,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "61c5af28ee9f015e54835f5a",
+  "id": "61c5aeecee9f015e54835f50",
   "deleted": false,
   "userPermissions": [
     "read:actions",
